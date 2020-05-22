@@ -21,66 +21,9 @@ public class DashToWord {
        }
        return(words);
        
-       
-        /*
-        for (int k=0; k<c.size(); k++){
-            String i =c.get(k);
-            int count=CountSlashes(i);
-            System.out.println(count);
-            int f=0;
-            int pos=i.indexOf("/");
-          
-            while(count>0){
-                words += AlphaList(i.substring(f,pos));
-                f=pos+1;
-                i=i.substring(f);
-                System.out.println(i);
-                pos=i.indexOf("/");
-                count--;
-             }
-             words+=" ";
-         }   
-
-        return(words);
-        */
-    }
-      
+    }    
     
-        //figure out how to get return of AlphaLIst per letter signal
-        
-        /*for (int k=0; k<c.size(); k++){
-            int f=0;
-            int pos=0;
-            String i =c.get(k);
-            for(int a=0;a<i.length();a++){
-                if(i.substring(a,a+1).equals("/")){
-                   pos=a;
-               words+= AlphaList(i.substring(f,pos));
-                     f=pos;
-               pos=pos+1;
-               }
-                
-            }
-            //String i = "";
-           //for(int i = 0; i); 
-            //words+= AlphaList(c.get(k).substring()) +" "; 
-         }
-      */ 
-    
-    /*
-    public static int CountSlashes (String a){
-        int count=0;
-        for(int k=0;k<a.length();k++){
-            if(a.substring(k,k+1).equals("/")){
-                count++;
-            }    
-        }
-       return(count);
-   }
-*/
-    
-    
-    
+ 
     public static String AlphaList(String l){
         if (l.equals("*-")){
             return("a");
