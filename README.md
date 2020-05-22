@@ -1,4 +1,4 @@
-# Morse-Code-Decoder
+# Morse-Coder-Decoder
 
 Source Code for MorseCodeDecode final project from AP Computer Science A class from 2019. 
 
